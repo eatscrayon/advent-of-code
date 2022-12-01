@@ -14,10 +14,7 @@ int main(void)
     ssize_t linelength;
     int total = 0;
     int count = 0;
-    int max = 0;
-    int firstplace =0;
-    int secondplace =0;
-    int thirdplace =0;
+
     
     int arr[SIZE] = {0};
 
