@@ -18,7 +18,7 @@ int main(void)
     
     int arr[SIZE] = {0};
 
-    fp = fopen("./day-1.txt", "r");
+    fp = fopen("./day-01.txt", "r");
     if (fp == NULL)
         exit(EXIT_FAILURE);
 
