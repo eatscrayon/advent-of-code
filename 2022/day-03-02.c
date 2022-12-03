@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#define SIZE 1000
+
 
 int main(void)
 {
@@ -9,9 +9,7 @@ int main(void)
     char *line = NULL;
     size_t len = 0;
     ssize_t linelength;
-    int linecount = 0;
     int total = 0;
-    int arr[SIZE] = {0};
     int reset = 0;
     // open the file
     fp = fopen("./day-03.txt", "r");
